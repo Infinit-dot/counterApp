@@ -1,3 +1,11 @@
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1551616653-e301df0d9af0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1534&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
 h1{
     margin: 10px 0;
 }
@@ -21,4 +29,8 @@ button{
 
 #increment-btn {
     background: brown;
+}
+
+#save-btn {
+    background: green;
 }
