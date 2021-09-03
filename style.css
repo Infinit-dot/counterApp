@@ -1,9 +1,17 @@
 
 body{
+ background: lightslategray;
+}
+
+div{
+    height: 650px;
+    width: 430px;
+    margin: 10px auto;
     background-image: url("https://images.unsplash.com/photo-1551616653-e301df0d9af0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1534&q=80");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
+    padding: 20px;
 }
 
 h1{
@@ -17,6 +25,7 @@ h2{
 }
 
 button{
+    display: block;
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -25,12 +34,48 @@ button{
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    margin: 10px auto;
 }
 
 #increment-btn {
     background: brown;
 }
+#increment-btn:hover {
+    background: rgb(122, 34, 34);
+}
 
+#increment-btn:active{
+    background: rgb(122, 34, 34);
+    width: 198px;
+}
 #save-btn {
     background: green;
+}
+
+#save-btn:hover {
+    background: rgb(1, 110, 1);
+}
+#save-btn:active{
+    background: rgb(1, 110, 1);
+    width: 198px;
+}
+p{
+   bottom: 60px;
+   font-weight: bold; 
+   background-color: rgba(255, 255, 255, 0.63);
+   font-size: 1.2rem;
+   margin-top: 240px;
+}
+
+#reset-btn {
+    margin-top: 120px;
+    background: brown;
+}
+#reset-btn:hover {
+    background: rgb(122, 34, 34);
+}
+
+#reset-btn:active{
+    background: rgb(122, 34, 34);
+    width: 198px;
 }
